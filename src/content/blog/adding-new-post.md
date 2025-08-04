@@ -23,7 +23,7 @@ Here is the list of frontmatter property for each post.
 | --- | --- | --- |
 | **_title_** | Title of the post. (h1) | required\* |
 | **_description_** | Description of the post. Used in post excerpt and site description of the post. | required\* |
-| **_pubDatetime_** | Published datetime in ISO 8601 format. | required\* |
+| **_pubDatetime_** | Published datetime in ISO 8601 format. Woah! | required\* |
 | **_modDatetime_** | Modified datetime in ISO 8601 format. (only add this property when a blog post is modified) | optional |
 | **_author_** | Author of the post. | default = SITE.author |
 | **_slug_** | Slug for the post. This field is optional but cannot be an empty string. (slug: ""❌) | default = slugified file name |
@@ -157,7 +157,9 @@ When you put images in the blog post (especially for images under `public` direc
 My recommendation for image compression sites.
 
 *   [TinyPng](https://tinypng.com/)
+    
 *   [TinyJPG](https://tinyjpg.com/)
+    
 
 ### OG Image
 
